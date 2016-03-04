@@ -4,8 +4,8 @@
 
 html, 
 body {
-	background-color: #ddd;
-	color: #4a4a4a;
+	background-color: #333;
+	color: #333;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -38,6 +38,7 @@ h3 {
 	text-align: center;
 	background-color: #fafafa;
 	margin: 0 20px;
+
 }
 
 .main-nav {
@@ -54,6 +55,7 @@ h3 {
 	background-color: #fff;
 	margin: 0 20px;
 	padding-bottom: 50px;
+
 }
 
 .main-footer {
@@ -61,8 +63,10 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background-color: #fafafa;
+	background-color: #333;
 	margin: 0 20px;
+	color: #eee;
+
 }
 
 .header {
@@ -140,7 +144,7 @@ h3 {
 .mobile-footer-nav {
 	margin-top: 40px;
 	font-weight: 700;
-	border-top: solid 1px #ddd;
+	border-top: solid 1px #eee;
 	width: 90%;
 }
 
@@ -179,6 +183,7 @@ h3 {
 		margin: 0;
 		flex-direction: row;
 		flex-wrap: wrap;
+		align-items: flex-start;
 	}
 
 	.header {
@@ -246,7 +251,7 @@ h3 {
 	}
 
 	.footer-nav {
-		border-top: solid 1px #ddd;
+		border-top: solid 1px #eee;
 		width: 90%;
 		display: flex;
 		flex-direction: row;
@@ -330,6 +335,7 @@ h3 {
 		margin: 0 auto;
 		padding: 0 20px;
 		width: 80%
+
 	}
 
 	.main-footer {
